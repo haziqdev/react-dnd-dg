@@ -1,4 +1,4 @@
-import type { Target, Tween } from "framer-motion";
+import type { Target, Tween } from 'framer-motion/dist/framer-motion';
 import React from "react";
 interface AnimateHeightProps {
     isVisible: boolean;

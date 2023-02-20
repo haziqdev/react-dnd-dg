@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { ResizeObserver } from "@juggle/resize-observer";
-import type { Target, Tween } from "framer-motion";
-import { motion } from "framer-motion";
+import type { Target, Tween } from 'framer-motion/dist/framer-motion';
+import { motion } from 'framer-motion/dist/framer-motion'
 import useMeasure from "react-use-measure";
 import React, { useState } from "react";
 

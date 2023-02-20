@@ -1,7 +1,7 @@
 import React, { useState, useEffect, createContext, useImperativeHandle, useContext, useRef, useMemo, forwardRef } from 'react';
 import { HTML5Backend, getEmptyImage } from 'react-dnd-html5-backend';
 import { ResizeObserver } from '@juggle/resize-observer';
-import { motion } from 'framer-motion/dist/framer-motion';
+import { motion } from 'framer-motion';
 import useMeasure from 'react-use-measure';
 import { useDragDropManager, useDrag, useDrop, useDragLayer } from 'react-dnd';
 export { DndProvider } from 'react-dnd';
